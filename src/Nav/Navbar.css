@@ -1,0 +1,102 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    /* background-color: gray !important; */
+}
+/* .main-nav{
+    background-color: transparent !important;
+    z-index: 1111;
+
+} */
+ .logo{
+    /* width: 100px !important; */
+    height: 50px !important;
+    object-fit: cover !important;
+ }
+.main-nav{
+    background-color: #333333;
+}
+.navbar{
+
+    display: flex;
+    justify-content: center;
+    align-items: center !important;
+    justify-content: space-between;
+    height: 70px !important;
+}
+.nav-menu{
+    display: flex !important;
+    margin: auto 0px !important;
+}
+.nav-item{
+    list-style-type: none !important;
+}    
+.nav-item .nav-links{
+    text-decoration: none !important;
+    color: white !important;
+    margin: auto 10px !important;
+    font-weight: bolder !important;
+}
+#nav-icon{
+    font-size: 30px !important;
+}
+
+.nav-menu{
+    display: flex !important;
+    margin: auto 0px !important;
+}
+.nav-item{
+    list-style-type: none !important;
+}    
+.nav-item .nav-links{
+    text-decoration: none !important;
+    color: white !important;
+    margin: 0px 10px !important;
+    font-weight: bolder !important;
+    
+}
+.nav-icon{
+    display: none !important;
+}
+@media screen and (max-width:593px) {
+    .nav-menu{
+        display: flex !important;
+        flex-direction: column !important;
+        position: fixed !important;
+        top: 140px !important;
+        right: -300px !important;
+        padding: 0px 0px !important;
+        text-align: center !important;
+        width: 220px !important;
+        height: 100vh !important;
+        background-color: #239cd3 !important;   
+        transition: 0.5s ease-in-out !important;
+        z-index: 999;
+    }
+    .nav-menu.active{
+        right: 0px !important;
+    }
+    .nav-menu .nav-item{
+        margin: 20px 5px !important;
+    }
+    
+    .nav-icon{
+        display: block !important;
+    }
+    .logo{
+        display: none !important;
+    }
+    .main-nav{
+        background-color: #333333;
+        top: 70px !important;
+    }
+    
+}
+@media screen and (max-width:575px) {
+    .navbar{
+        padding: 0px 30px !important;
+    }
+}

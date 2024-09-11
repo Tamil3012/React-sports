@@ -1,0 +1,30 @@
+.gray{
+    background-color: #239cd3 ; 
+    font-weight: bold;
+    color: white;
+    border: none !important;
+}
+#login-btn{
+    margin: 6px;
+    padding: 9px 20px !important;
+    border-radius: 30px !important;
+    border: 1px solid #239cd3 !important;
+    font-weight: bold ;
+    
+}
+form {
+    width: 70% !important;
+}
+@media screen and (max-width:1199px) {
+    form {
+        width: 100% !important;
+    }
+}
+form input{
+    border: 2px solid gray !important;
+    background-color: rgb(226, 226, 226) !important;
+    width: 100% !important;
+}
+.left{
+    height: 300px !important;
+}

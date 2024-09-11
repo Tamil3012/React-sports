@@ -1,0 +1,16 @@
+.top-nav img{
+    height: 55px !important;
+    /* box-shadow: 0px 0px 20px black !important; */
+    transform: 0.5s !important;
+}
+.top-nav{
+    background-color: #239cd3 !important;
+    display: none !important;
+}
+@media screen and (max-width:593px) {
+    .top-nav{
+        background-color: #239cd3 !important;
+        display: block !important;
+        
+    }
+}

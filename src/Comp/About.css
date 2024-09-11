@@ -1,0 +1,22 @@
+.img-card{
+    background-image: url('');
+
+}
+
+
+.card img{
+    width: 200px !important;
+    height: 200px !important;
+    object-fit: cover !important;
+}
+
+.shop-top{
+    background-color: #239cd3 !important;
+    background-image: url('./../images/shoptop2.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover !important;
+    height: 20vh !important;
+    /* opacity: 0.2 !important; */
+}

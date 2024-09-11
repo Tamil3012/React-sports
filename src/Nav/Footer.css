@@ -1,0 +1,67 @@
+
+.footer-logo{
+    height: 80px !important;
+}
+.footer .sub{
+    border: 2px solid rgb(145, 145, 145) !important;
+}
+.sub-btn{
+    background-color: #239cd3 !important;
+    transition: all 0.5s !important;
+}
+.sub-btn:hover{
+    box-shadow: 0px 0px 20px #239cd3;
+}
+.foot-icon{
+    height: 50px !important;
+}
+.foot-icon i{
+    /* border: 2px solid rgb(95, 95, 95) !important; */
+    background-color: rgb(180, 180, 180) !important;
+    border-radius: 50% !important;
+    padding: 10px !important;
+    width: 40px !important;
+    height: 38px !important;
+    text-align: center !important;
+    transition: all 0.5s !important;
+    cursor: pointer !important;
+    
+}
+.foot-icon i:hover{
+    background-color: #239cd3 !important;
+    color: white !important;
+    box-shadow: 0px 0px 20px #239cd3;
+
+}
+.footer h6{
+     transition: 0.5s;
+    color: black;
+}
+.footer h6 a{
+     transition: 0.5s;
+    text-decoration: none !important;
+    color: black;
+}
+.footer h6 a:hover{
+    cursor: pointer !important;
+    color: #239cd3 !important;
+    transform: translateY(-2px) !important;
+}
+.footer{
+    background-color: rgb(240, 240, 240);
+}
+.footer h6:hover{
+    cursor: pointer !important;
+    color: #239cd3 !important;
+    transform: translateY(-2px) !important;
+}
+.last-footer{
+    background-color: #333333 !important ;
+
+}
+@media screen and (max-width:334px) {
+    .footer input{
+        width: 100% !important;
+        margin: 10px 0px;
+    }
+}
