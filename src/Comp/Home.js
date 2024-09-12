@@ -1,9 +1,9 @@
 
 import React from 'react'
 import Carousel from 'react-bootstrap/Carousel';
-import img1 from './../images/banner1.jpg';
-import img2 from './../images/banner2.jpg';
-import img3 from './../images/banner3.jpg';
+import img1 from './../images/ban1.jpg';
+import img2 from './../images/ban2.jpg';
+import img3 from './../images/ban3.jpg';
 import sl1 from './../images/sl1.jpg';
 import sl2 from './../images/sl2.jpg';
 import img5 from './../images/img5.jpg';
@@ -143,8 +143,8 @@ const Home = () => {
                                  <img className='img-fluid' src={shop2} />
                               </div>
                               <div className='top-cont text-white my-4 mx-5 '>
-                                    <h1 className=' fw-bolder'>Kolkata</h1>
-                                    <h6>7A Short Street, Gr. Floor,<br/>Near Park St, Kolkata</h6>
+                                  <h1 className=' fw-bolder'>Kolkata</h1>
+                                  <h6>7A Short Street, Gr. Floor,<br/>Near Park St, Kolkata</h6>
                               </div>
                               <div className='over-cont'>
                                   <button className='m-5 px-4 py-2 border-0 rounded-1 fw-bolder text-white'>view shop</button>
@@ -152,6 +152,7 @@ const Home = () => {
                                 
                           </div>
                       </div>
+                      
                       
                     </div>
               </div>
