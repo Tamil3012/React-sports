@@ -11,6 +11,7 @@ import { Footer } from './Nav/Footer';
 import { Topnav } from './Nav/Topnav';
 import { Shop } from './Comp/Shop';
 import { Login } from './Comp/Login';
+import ScrollToTop from './Comp/ScrollToTop';
 
 
 
@@ -21,6 +22,7 @@ function App() {
         
         <Topnav />
           <BrowserRouter>
+          <ScrollToTop/>
             <Navbar/>
 
                   <Routes>
